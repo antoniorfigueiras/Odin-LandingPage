@@ -112,6 +112,62 @@ header {
   width: 10rem;
 }
 
+/*Quote Section*/
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 6rem 0;
+}
+
+.quote {
+  font-size: 2.25rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #1f2937;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.quote-by {
+  text-align: right;
+  font-size: 1.125rem;
+}
+
+/*Button Call for Signup Section*/
+.button-section {
+  padding: 6rem 0;
+  align-items: center;
+}
+
+.button-call{
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  width: 35%;
+  background-color: #4ea0fd;
+  border-radius: 0.65rem;
+}
+
+.button-title{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f9faf8;
+}
+.button-signup{
+  float: right;
+}
+
+.button-signup button{
+  font-size: 1.125rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.625rem;
+  background-color: #4ea0fd;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+.button-desc{
+  color: #e5e7eb;
+}
 @media screen and (max-width: 1330px) {
   /*header phone*/
   .header-logo {
