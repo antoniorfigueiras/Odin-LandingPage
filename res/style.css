@@ -1,75 +1,104 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-*{
+* {
   font-family: Roboto;
 }
 
 body {
-margin: 0;
+  margin: 0;
 }
 
 /*header*/
 header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #1f2937;
-color: white;
-padding: 1.25rem 0 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 1.25rem 0 6.25rem;
 }
 
 .header-logo {
-font-size: 1.5rem;
-color: #f9faf8;
-font-weight: bolder;
-flex: 0 0 35%;
-margin-left: 25%;
+  font-size: 1.5rem;
+  color: #f9faf8;
+  font-weight: bolder;
+  flex: 0 0 35%;
+  margin-left: 25%;
 }
 
 .link-text {
-font-size: 1.125rem;
-color: #e5e7eb;
-flex: 1;
-text-align: right;
-margin-right: 25%;
+  font-size: 1.125rem;
+  color: #e5e7eb;
+  flex: 1;
+  text-align: right;
+  margin-right: 25%;
 }
 
 /*hero*/
-.hero{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-margin: auto;
-background-color: #1f2937;
-padding: 3rem 0;
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: #1f2937;
+  padding: 3rem 0;
 }
 
-.hero-main{
-margin-left: 30%;
-margin-right: 4%;
-font-size: 3rem;
-font-weight: bold;
-color: #f9faf8;
-flex: 0 0 16%;
+.hero-main {
+  margin-left: 30%;
+  margin-right: 4%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f9faf8;
+  flex: 0 0 16%;
 }
 
 .hero-secondary {
-font-size: 1.125rem;
-color: #e5e7eb;
+  font-size: 1.125rem;
+  color: #e5e7eb;
 }
 
-#signup-btn{
-background-color: #3882F6;
-color: white;
-padding: 0.75rem 2rem;
-border-radius: 10%;
-border: 0;
+#signup-btn {
+  background-color: #3882f6;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 10%;
+  border: 0;
 }
 
-.hero-image{
-flex: 1;
-text-align: left;
+.hero-image {
+  flex: 1;
+  text-align: left;
 }
 
+@media screen and (max-width: 1330px) {
 
+  /*header phone*/
+  .header-logo {
+    margin-left: 10%;
+    font-size: 0.825rem;
+  }
+  
+  .link-text {
+    font-size: 0.625rem;
+    margin-right: 10%;
+  }
+  
+  #placeholder{
+    width: 90%;
+  }
+
+  /*hero*/
+  .hero-main {
+    margin-left: 10%;
+    font-size: 1.5rem;
+  }
+  .hero-secondary {
+    font-size: 0.625rem;
+  }
+  #signup-btn {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.625rem;
+  }
+}
