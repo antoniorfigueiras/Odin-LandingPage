@@ -138,7 +138,7 @@ header {
   align-items: center;
 }
 
-.button-call{
+.button-call {
   margin: 0 auto;
   padding: 4rem 2rem;
   width: 35%;
@@ -146,26 +146,33 @@ header {
   border-radius: 0.65rem;
 }
 
-.button-title{
+.button-title {
   font-size: 2rem;
   font-weight: bold;
   color: #f9faf8;
 }
-.button-signup{
+.button-signup {
   float: right;
 }
 
-.button-signup button{
+.button-signup button {
   font-size: 1.125rem;
   padding: 0.5rem 1rem;
   border-radius: 0.625rem;
   background-color: #4ea0fd;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #e5e7eb;
+  color: #e5e7eb;
   font-weight: bold;
 }
 
-.button-desc{
+.button-desc {
+  color: #e5e7eb;
+}
+
+.footer {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #1f2937;
   color: #e5e7eb;
 }
 @media screen and (max-width: 1330px) {
