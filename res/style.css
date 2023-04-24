@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 
-/*header*/
+/*Header Section*/
 header {
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,7 @@ header {
   font-size: 1.5rem;
   color: #f9faf8;
   font-weight: bolder;
-  flex: 0 0 35%;
+  flex: 0 0 25%;
   margin-left: 25%;
 }
 
@@ -33,7 +33,7 @@ header {
   margin-right: 25%;
 }
 
-/*hero*/
+/*Hero Section*/
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -71,7 +71,7 @@ header {
   text-align: left;
 }
 
-/*random-info*/
+/*Random info Section*/
 .random-info-title {
   text-align: center;
   font-size: 2.25rem;
@@ -86,7 +86,7 @@ header {
   flex-wrap: nowrap;
   align-items: center;
   margin: auto;
-  width: 30%;
+  width: 50%;
 }
 
 .info-section-one,
@@ -94,7 +94,6 @@ header {
 .info-section-three,
 .info-section-four {
   flex: 1;
-  margin-right: 0.125rem;
 }
 
 .info-square {
@@ -123,7 +122,7 @@ header {
   font-weight: 400;
   font-style: italic;
   color: #1f2937;
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -169,38 +168,145 @@ header {
   color: #e5e7eb;
 }
 
+/*Footer Section*/
 .footer {
   padding: 3rem 0;
   text-align: center;
   background-color: #1f2937;
   color: #e5e7eb;
 }
-@media screen and (max-width: 1330px) {
-  /*header phone*/
+
+@media screen and (max-width: 1600px) {
   .header-logo {
-    margin-left: 10%;
-    font-size: 0.825rem;
+    margin-left: 25%;
+    font-size: 1.5rem;
   }
 
   .link-text {
-    font-size: 0.625rem;
-    margin-right: 10%;
+    font-size: 1rem;
+    margin-right: 25%;
   }
 
   #placeholder {
-    width: 90%;
+    width: 24.5rem;
+  }
+
+  .hero-main {
+    margin-left: 25%;
+    font-size: 1.5rem;
+  }
+  .hero-secondary {
+    font-size: 1rem;
+  }
+  #signup-btn {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .info-group {
+    width: 50%;
+  }
+
+  .quote {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .header-logo {
+    margin-left: 25%;
+    font-size: 1.5rem;
+  }
+
+  .link-text {
+    font-size: 0.8rem;
+    margin-right: 25%;
   }
 
   /*hero*/
   .hero-main {
-    margin-left: 10%;
+    margin-left: 25%;
     font-size: 1.5rem;
   }
   .hero-secondary {
-    font-size: 0.625rem;
+    font-size: 1rem;
   }
   #signup-btn {
     padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .info-square {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .info-text {
+    width: 8rem;
+  }
+
+  .quote {
+    font-size: 1.65rem;
+  }
+
+  .quote-by {
+    font-size: 0.825rem;
+  }
+
+  .button-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f9faf8;
+  }
+
+  .button-signup button {
+    font-size: 0.725rem;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 1094px) {
+  .header-logo {
+    font-size: 1rem;
+  }
+
+  .link-text {
+    font-size: 0.7rem;
+  }
+
+  .hero-main {
+    font-size: 1.2rem;
+  }
+  .hero-secondary {
+    font-size: 0.8rem;
+  }
+  #signup-btn {
+    font-size: 0.7rem;
+  }
+
+  .info-square {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .info-text {
+    width: 6rem;
+  }
+
+  .quote {
+    font-size: 1.45rem;
+  }
+
+  .quote-by {
     font-size: 0.625rem;
+  }
+
+  .button-title {
+    font-size: 1.2rem;
+  }
+
+  .button-signup button {
+    font-size: 0.725rem;
+    font-weight: bold;
   }
 }
