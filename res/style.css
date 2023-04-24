@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 * {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -15,7 +14,7 @@ header {
   align-items: center;
   background-color: #1f2937;
   color: white;
-  padding: 1.25rem 0 6.25rem;
+  padding: 1.25rem 0 1.25rem;
 }
 
 .header-logo {
@@ -72,20 +71,60 @@ header {
   text-align: left;
 }
 
-@media screen and (max-width: 1330px) {
+/*random-info*/
+.random-info-title {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-top: 2rem;
+}
 
+.info-group {
+  padding: 3rem 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+}
+
+.info-section-one,
+.info-section-two,
+.info-section-three,
+.info-section-four {
+  flex: 1;
+  margin-right: 0.125rem;
+}
+
+.info-square {
+  border: 0.225rem solid #3882f6;
+  border-radius: 15%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.info-text {
+  margin-top: 0.625rem;
+  font-size: 0.925rem;
+  color: #1f2937;
+  text-align: center;
+  width: 10rem;
+}
+
+@media screen and (max-width: 1330px) {
   /*header phone*/
   .header-logo {
     margin-left: 10%;
     font-size: 0.825rem;
   }
-  
+
   .link-text {
     font-size: 0.625rem;
     margin-right: 10%;
   }
-  
-  #placeholder{
+
+  #placeholder {
     width: 90%;
   }
 
