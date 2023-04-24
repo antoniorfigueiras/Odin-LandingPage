@@ -1,62 +1,75 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-body {
+*{
   font-family: Roboto;
-  margin: 0;
+}
+
+body {
+margin: 0;
 }
 
 /*header*/
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1f2937;
-  color: white;
-  padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #1f2937;
+color: white;
+padding: 1.25rem 0 6.25rem;
 }
 
 .header-logo {
-  font-size: 24px;
-  color: #f9faf8;
-  font-weight: bold;
-  flex: 0 0 35%;
-  margin-left: 25%;
+font-size: 1.5rem;
+color: #f9faf8;
+font-weight: bolder;
+flex: 0 0 35%;
+margin-left: 25%;
 }
 
 .link-text {
-  font-size: 18px;
-  color: #e5e7eb;
-  flex: 1;
-  text-align: right;
-  margin-right: 25%;
+font-size: 1.125rem;
+color: #e5e7eb;
+flex: 1;
+text-align: right;
+margin-right: 25%;
 }
 
 /*hero*/
 .hero{
-  margin: auto;
-  background-color: #1f2937;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+background-color: #1f2937;
+padding: 3rem 0;
 }
 
 .hero-main{
-  margin-left: 25%;
-  font-size: 48px;
-  font-weight: bold;
-  color: #f9faf8;
+margin-left: 30%;
+margin-right: 4%;
+font-size: 3rem;
+font-weight: bold;
+color: #f9faf8;
+flex: 0 0 16%;
 }
 
 .hero-secondary {
-  font-size: 18px;
-  color: #e5e7eb;
+font-size: 1.125rem;
+color: #e5e7eb;
 }
 
 #signup-btn{
-  background-color: #3882F6;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 15%;
-  border: 0;
+background-color: #3882F6;
+color: white;
+padding: 0.75rem 2rem;
+border-radius: 10%;
+border: 0;
 }
 
 .hero-image{
-  float:right;
+flex: 1;
+text-align: left;
 }
+
+
